@@ -9,7 +9,7 @@ class CustomerController extends Controller
 {
     public function index()
     {
-        $customers = \App\Customer::all();
+        $customers = Customer::all();
 
         return view('customer.index', compact('customers'));
     }
@@ -39,7 +39,7 @@ class CustomerController extends Controller
         return redirect('customers');
     }
 
-    public function show(\App\Customer $customer)   //$customer should match the name in the route
+    public function show(Customer $customer)   //$customer should match the name in the route
     {
         //Option 1
 //        $customer = Customer::findOrFail($customerId);
@@ -47,12 +47,12 @@ class CustomerController extends Controller
         return view('customer.show', compact('customer'));
     }
 
-    public function edit(\App\Customer $customer)
+    public function edit(Customer $customer)
     {
         return view('customer.edit', compact('customer'));
     }
 
-    public function update(\App\Customer $customer)
+    public function update(Customer $customer)
     {
         $data = request()->validate([
             'name' => 'required',
@@ -60,6 +60,13 @@ class CustomerController extends Controller
         ]);
 
         $customer->update($data);
+
+        return redirect('/customers');
+    }
+
+    public function destroy(Customer $customer)
+    {
+        $customer->delete();
 
         return redirect('/customers');
     }

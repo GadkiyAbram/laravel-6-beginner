@@ -1,5 +1,6 @@
-<ul>
-	<li><a href="/about">About Us</a></li>
-	<li><a href="/service">Services</a></li>
-	<li><a href="/">Back to Main Page</a></li>
-</ul>
+<div class="d-flex">
+	<a href="/about">About Us</a>
+	<a href="/service">Services</a>
+	<a href="/customers">Customers</a>
+	<a href="/">Back to Main Page</a>
+</div>

@@ -4,10 +4,22 @@
 	<a href="/customers">< Back to Customers</a>
 
 	<a href="/customers/{{ $customer->id }}/edit">Edit Customer</a>
+
 </div>
 
-<p><strong>Name</strong></p>
-<p>{{ $customer->name }}</p>
+<div>
+	<div>
+		<p><strong>Name: </strong>{{ $customer->name }}</p>
+		<p><strong>Email: </strong>{{ $customer->email }}</p>
+	</div>
+</div>
 
-<p><strong>Email</strong></p>
-<p>{{ $customer->email }}</p>
+<div>
+	<form action="/customers/{{ $customer->id }}" method="post">
+		@method('DELETE')
+		@csrf
+
+		<button style="color: red">Delete Customer</button>
+
+	</form>
+</div>
