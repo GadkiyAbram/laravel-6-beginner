@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2875130-2ffe-49cf-9f53-4d2d44691cd6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/Http/Controllers/CustomerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/customer/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/customer/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/customer/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/customer/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resources/views/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../resources/views/nav.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="30" column="68" lean-forward="true" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+              <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -47,11 +43,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/CustomerController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-697">
-              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="357">
+              <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+              <folding>
+                <element signature="e#40#57#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,11 +120,11 @@
         <option value="$PROJECT_DIR$/../app/Customer.php" />
         <option value="$PROJECT_DIR$/../resources/views/customer/create.blade.php" />
         <option value="$PROJECT_DIR$/../resources/views/customer/edit.blade.php" />
-        <option value="$PROJECT_DIR$/../routes/web.php" />
         <option value="$PROJECT_DIR$/../resources/views/customer/index.blade.php" />
         <option value="$PROJECT_DIR$/../resources/views/nav.blade.php" />
         <option value="$PROJECT_DIR$/../resources/views/customer/show.blade.php" />
         <option value="$PROJECT_DIR$/../app/Http/Controllers/CustomerController.php" />
+        <option value="$PROJECT_DIR$/../routes/web.php" />
       </list>
     </option>
   </component>
@@ -329,7 +328,7 @@
       <workItem from="1571324823436" duration="6087000" />
       <workItem from="1571381674269" duration="893000" />
       <workItem from="1571383204921" duration="616000" />
-      <workItem from="1571383973696" duration="17745000" />
+      <workItem from="1571383973696" duration="17867000" />
     </task>
     <task id="LOCAL-00001" summary="e7-done&#10;&#10;Setting up mysql / sqlite db's">
       <created>1571385936926</created>
@@ -359,11 +358,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571408635880</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="e11-done&#10;&#10;Deleteing record in DB">
+      <created>1571459317834</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571459317834</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25341000" />
+    <option name="totallyTimeSpent" value="25463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -400,7 +406,8 @@
     <MESSAGE value="e7-done&#10;&#10;Setting up mysql / sqlite db's" />
     <MESSAGE value="e8-done&#10;&#10;Inserting into mysql records (Services)" />
     <MESSAGE value="e10-done&#10;&#10;Updating record in DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="e10-done&#10;&#10;Updating record in DB" />
+    <MESSAGE value="e11-done&#10;&#10;Deleteing record in DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="e11-done&#10;&#10;Deleteing record in DB" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/subviews/hello.blade.php" />
@@ -525,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="68" lean-forward="true" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../resources/views/customer/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -551,8 +551,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../app/Http/Controllers/CustomerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="357">
+          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
         </state>
       </provider>
     </entry>
